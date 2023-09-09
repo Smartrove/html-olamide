@@ -4,27 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
-    <style>
-        table{
-            width: 50%;
-
-        }
-
-        table, td, th {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 20px;
-        }
-
-        td{
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="table.css">
 </head>
 <body>
 
-    <!-- table head horizontal  -->
-    <table>
+   <div>
+
+ <!-- table head horizontal  -->
+ <div style="overflow-x: scroll;">
+    <table class="head-horizontal">
         <tr>
             <th>Company</th>
             <th>Contact</th>
@@ -41,52 +29,52 @@
 <td>South Africa</td>
         </tr>
     </table>
-
-    <br>
-    <br>
-    <br>
+   </div>
 
     <!-- table head  vertical -->
 
-    <table>
-        <tr>
-            <th>Company</th>
-            <td>Glo</td>
-            <td>MTN</td>
-        </tr>
-        <tr>
-            <th>Contact</th>
-            <td>180</td>
-            <td>200</td>
-        </tr>
-        <tr>
-            <th> Country</th>
-            <td>Nigeria</td>
-            <td>South Africa</td>
-        </tr>
-    </table>
-
-    <br>
-    <br>
-    <br>
+    <div>
+        <table class="head-vertical">
+            <tr>
+                <th>Company</th>
+                <td>Glo</td>
+                <td>MTN</td>
+            </tr>
+            <tr>
+                <th>Contact</th>
+                <td>180</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th> Country</th>
+                <td>Nigeria</td>
+                <td>South Africa</td>
+            </tr>
+        </table>
+    </div>
 
     <!-- colspan -->
 
-    <table>
-        <tr>
-            <th colspan="2">FullName</th>
-            <th>Year of Birth</th>
-        </tr>
-        <tr>
-            <td>Shola</td>
-            <td>Akintunde</td>
-            <td>2000</td>
-        </tr>
-        <tr>
-            <td>Shade</td>
-            <td> Alake </td>
-            <td> 1990</td>
-        </tr>
-    </table>
+    <div>
+        <table class="colspan">
+            <tr>
+                <th colspan="2">FullName</th>
+                <th>Year of Birth</th>
+            </tr>
+            <tr>
+                <td>Shola</td>
+                <td>Akintunde</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Shade</td>
+                <td> Alake </td>
+                <td> 1990</td>
+            </tr>
+        </table>
+    </div>
+
+
+   </div>
 </body>
 </html>

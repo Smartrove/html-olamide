@@ -20,9 +20,11 @@ body{
     margin: 20px 30px 25px 30px;
     padding: 30px 40px 30px 40px;
     color:tomato;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     border: 1px solid tomato; /* short hand for border*/
     border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
 };
 
 .sub-heading{
@@ -34,4 +36,45 @@ body{
     list-style-type: lower-roman;
     color: white;
     background-color: cadetblue;
+}
+
+.outline{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    width: 200px;
+    outline: 1px solid teal;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-indent{
+    text-indent: 50px;
+}
+
+.link{
+    text-decoration: none;
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 35px;
+}
+.link:hover{
+    background-color: red;
+    text-decoration: underline;
+}
+
+.link:visited{
+    color: blue;
+    background-color: green;
+}
+
+.a {
+    list-style-position: outside;
+}
+
+.a li{
+    border: 1px solid black;
+
 }

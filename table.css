@@ -1,0 +1,44 @@
+table{
+    width: 100%;
+
+}
+
+@media screen and (max-width:700px){
+    .head-horizontal{
+        display: none;
+    }
+}
+
+/* .colspan{
+    display: none;
+} */
+
+table, td, th {
+    border: 1px solid teal;
+    border-collapse: collapse;
+    padding: 20px;
+}
+ /* td, th {
+    border-top: 1px solid teal;
+    border-collapse: collapse;
+    padding: 20px;
+} */
+
+td{
+    text-align: center;
+}
+tr:hover{
+background-color: coral;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
